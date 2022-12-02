@@ -2,7 +2,7 @@
 
 public class Billing
 {
-    static final double TAX = 0.08;
+    static final double TAX = 0.08;         // save tax rate as constant
     public static void main(String[] args)
     {
         double bill;

@@ -4,10 +4,10 @@ public class FormLetterWriter
 {
     public static void main(String[] args)
     {
-        displaySalutation("James");
+        displaySalutation("James");     // one parameter
         displayLetter();
         System.out.println("--------------------------------\n");
-        displaySalutation("James", "Cornell");
+        displaySalutation("James", "Cornell");   // this will override the function with 1 parameter and use 2 parameters instead
         displayLetter();
         System.out.println("--------------------------------\n");
     }
